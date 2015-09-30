@@ -16,6 +16,10 @@
 	font-size: 20px;
 }
 
+.intro {
+	line-height: 150%;
+}
+
 li {
 	margin-bottom: 10px;
 }
