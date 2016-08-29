@@ -1,9 +1,9 @@
 .profile-pic {
-	width: 240px;
-	height: 240px;
-	border-radius: 120px;
-	-webkit-border-radius: 120px;
-	-moz-border-radius: 120px;
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
 	margin: auto;
 	background-image: url("pictures/mypic.jpg");
 	background-size: cover;
@@ -11,9 +11,17 @@
 }
 
 .panel-default > .panel-heading {
-	background-color: #2B2B2B;
+	background-color: #4C4C4C;
 	color: white;
 	font-size: 20px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
+}
+
+.panel-body {
+	background: #FFFFFF;
+	color: #191919;
+	font-size: 20;
 }
 
 .intro {
@@ -24,7 +32,26 @@ li {
 	margin-bottom: 10px;
 }
 
+a {
+	color: #7B2C2C;
+}
+
 #github > img {
+	width: 64px;
+	height: 64px;
+}
+
+#linkedin > img {
+	width: 64px;
+	height: 64px;
+}
+
+#email > img {
+	width: 64px;
+	height: 64px;
+}
+
+#twitter > img {
 	width: 64px;
 	height: 64px;
 }
